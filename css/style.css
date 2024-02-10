@@ -36,7 +36,8 @@
 .btn-sm__limpiar {
   background-color: rgba(255, 79, 198, 0.3) !important;
 }
-.btn-sm__limpiar:hover, .btn-sm__limpiar:focus {
+.btn-sm__limpiar:hover,
+.btn-sm__limpiar:focus {
   opacity: 0.8;
 }
 
@@ -68,7 +69,8 @@
 #site-header.hide {
   top: -450px;
 }
-#site-header__logo:hover, #site-header__logo:focus {
+#site-header__logo:hover,
+#site-header__logo:focus {
   opacity: 0.65;
 }
 
@@ -97,7 +99,8 @@
   transform: rotate(-45deg);
   transform-origin: 10% 90%;
 }
-.navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler:focus,
+.navbar-toggler:active {
   outline: none !important;
   box-shadow: none !important;
   border: 0 !important;
@@ -128,6 +131,7 @@
 
 .section__1 {
   color: #ced3fc;
+  height: 80svh;
 }
 .section__1__h1 {
   color: #ffffff;
@@ -146,7 +150,8 @@
   padding: 1rem;
   transition: transform 0.3s;
 }
-.section__1__img:hover, .section__1__img:focus {
+.section__1__img:hover,
+.section__1__img:focus {
   opacity: 0.65;
   transform: scale(1.03);
 }
@@ -176,7 +181,7 @@
   cursor: default;
 }
 .reveal-text::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 999;
   top: 0;
@@ -201,10 +206,12 @@
   }
 }
 @keyframes text-revealer {
-  0%, 50% {
+  0%,
+  50% {
     transform-origin: 0 50%;
   }
-  60%, 100% {
+  60%,
+  100% {
     transform-origin: 100% 50%;
   }
   60% {
@@ -260,7 +267,8 @@
 .section__3__aside__img {
   transition: transform 0.3s;
 }
-.section__3__aside__img:hover, .section__3__aside__img:focus {
+.section__3__aside__img:hover,
+.section__3__aside__img:focus {
   opacity: 0.65;
   transform: scale(1.03);
 }
@@ -275,7 +283,8 @@
   font-size: 2.5rem;
   padding: 0rem 2rem 0rem 0rem;
 }
-.footer__a:hover, .footer__a:focus {
+.footer__a:hover,
+.footer__a:focus {
   color: #ffffff;
 }
 .footer__a__email {
@@ -283,7 +292,8 @@
   text-decoration: none;
   color: #ced3fc;
 }
-.footer__a__email:hover, .footer__a__email:focus {
+.footer__a__email:hover,
+.footer__a__email:focus {
   color: #ffffff;
 }
 .footer__ul {
@@ -297,7 +307,8 @@
   text-decoration: none;
   color: #ced3fc;
 }
-.footer__ul__li__a:hover, .footer__ul__li__a:focus {
+.footer__ul__li__a:hover,
+.footer__ul__li__a:focus {
   color: #ffffff;
 }
 .footer__h4 {
